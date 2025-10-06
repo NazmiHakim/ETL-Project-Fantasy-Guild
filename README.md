@@ -39,8 +39,8 @@ Follow these steps to set up and run the project on your local machine.
 
 1.  **Clone the Repository**
     ```sh
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    git clone [https://github.com/NazmiHakim/ETL-Project-Fantasy-Guild.git](https://github.com/NazmiHakim/ETL-Project-Fantasy-Guild.git)
+    cd ETL-Project-Fantasy-Guild
     ```
 
 2.  **Install Dependencies**
