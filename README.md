@@ -52,18 +52,6 @@ Follow these steps to set up and run the project on your local machine.
     ```
     This command reads the `package.json` file and installs the required dependencies into the `node_modules` folder.
 
-3.  **Prepare the Databases (Important!)**
-
-    This project requires two SQLite database files: `guild_oltp.db` (the source) and `guild_dwh.db` (the destination).
-
-    * **Create the Database Schemas**:
-        * Open **DB Browser for SQLite**.
-        * Create the tables for `guild_oltp.db` using the [OLTP schema query](<link-to-your-oltp-schema.sql>).
-        * Create the tables for `guild_dwh.db` using the [DWH schema query](<link-to-your-dwh-schema.sql>).
-    * **Populate the OLTP Database**:
-        * Open the `guild_oltp.db` file with DB Browser.
-        * Run the [data seeding query](<link-to-your-seed-data.sql>) to add sample data. **Do not add any data to `guild_dwh.db`**, as the script will do this automatically.
-
 ## Running the ETL Process
 
 Once the setup is complete, you can run the ETL script.
