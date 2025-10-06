@@ -20,11 +20,13 @@ This project demonstrates a complete ETL (Extract, Transform, Load) process usin
 
 This schema is designed for transactional efficiency, capturing the daily activities of the guild. It is highly normalized to reduce data redundancy.
 
+![OLTP Schema](img/oltp_schema.png)
 
 ### 2. Dimensional Model (Star Schema)
 
 This schema is designed for analytical efficiency, allowing for fast queries on large volumes of data. It consists of a central `FactQuestAssignments` table surrounded by descriptive dimension tables.
 
+![Dimensional Model Schema](img/dwh_schema.png)
 
 ## Getting Started
 
